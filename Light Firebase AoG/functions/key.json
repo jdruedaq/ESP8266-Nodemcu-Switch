@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "oneago--home",
+  "private_key_id": "d0282e09ae91e8f0926bda1bc15538467477851d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC9SqczjG63ItVC\nxDoycmkizYwrZ/IFRafjeWFkl2f8MtUkYW7XsTC/rVrYnZ6HJZ+UqLyrSwGmuTiF\nCl3+SFBMRAmcYLohAD8rJRekNUlSujKmZsxzz+cHsOkSK6gHHMQxh17cHoRVVOTh\n0r1uizvTd3tSHo0uTrhf9BkZWOftGjbcPrLcHkwWHsOYEVvCW9OlMPRrpAwteach\n5wmgAkeo8OOwg6dUeG7TJp1UheZZ8L1bw3MB2et6DI+v7EJuA66iq62A3YkdRSO8\nCOBPUnYpR44DYYTN2PYYPcbAlxQrSWQCSI3IS65QTOTJjZVmL/dsdkcOUnTZRxb0\narleCjznAgMBAAECggEAHSNnwkH6LQtvTqbML/B4CgPKxvJqSVt5RkVCCRexdHC9\nagCW7RxOh8L/ZVw7XKHIWJGc8V/2HMcNpz/QS5CwI6f5iW6ZAvQkb9d24IUqCKe2\n8kcyw8UbfY3tuClWOo9iuB5sK3AwfhONDsy/nPZROvJ9M51BAwGFKj12EPZ5moAW\ne8QYMpso5gSsjhs/m0GTguARwvGTxjv/Zzz7nfI/JbAbnm5dSWxq0i1zcn9lME96\nkc0M3adZaK+9ZME0WePbPWzUVIqCDZJRc2mtzuqiMyLoqZUcNrNg6Hk5yiwvFecE\nkC78g9X5BfhKl0ngQZob+6w6TIi9dDHR1s2dapcX4QKBgQD78F1/1DWjdIn8xArP\nykJ4fzFk/I5WIZIoZi5KZKUQBOsCBfN0lvOpwR60hF6/sNgTm9Nj3v4YnKMh/skO\ndDmFWJXF6oDS4boWWwV9y5ehlQ/Enm6rGn+9mUAvDmFJ/HWt0dqQ2EDOQVABSiZ7\n7flDLdCmOQu71eiLhXYeOGfm8QKBgQDAV8WGD087ZGCDZKxCISk2oSzBY+Kt0jA/\nk0VvMsG4Yeu+vESAMVmXQH7hg73mZBdHZx1wiUL96O2+nIaOJGYgW8D8gStBk+r2\nxHdhc1nmcOIuoalxeEitVrLldFyD5ek+c840OB91Z8Lw/cm4uYfBsORkU4L7cLlL\n2eLhMjDRVwKBgQC8H/MhZaub34S+KwFLweM6qPeQSgpbBHxoEEzWniqnOJTnkNwH\nHkTaaGtuLj218+6VTdFejP++DxC9bMxjL6RYDxrfi8kgLw/Oa69BDMqwDGeW0Rsg\nRwxF3m6P9LPvFEYnQkFr0R8rJJgCLoVoGv37DPX1eTlqzEL2E/VsgYAMcQKBgAvN\nFtRr2gul0/ob0inYiQPODcXrz/ukOsubyJXTAmnCsEkqmfVXkcyi62YAxET/fSIn\nZHoEIfUcNoIMboEIIK/5kTSs5C+I2NC9KynyfuCRqn778j6BB8yC1kUXx5lcINxx\nFITFsMBuVlqc56SK1ZZ/uPOi4BV3TBcoTjBM+QvPAoGAVbRcZFIMw2Sh5taE3bzy\nOIHVN3nLA8J1EQTW1RxqgInuWpPaWQk7djHhIDlzCGHW6shGro4tgSoD9Es7VyHt\nGnR1F1e+nCt9ktUYWpgElPA54n9hNlJrSnT3WTmVxj6y2QklxJ7FNUYdXFddhJU5\nHUHbNLbOQuVv0oQYAJ0VaNQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "myserviceacount@oneago--home.iam.gserviceaccount.com",
+  "client_id": "102787366721935418653",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/myserviceacount%40oneago--home.iam.gserviceaccount.com"
+}
