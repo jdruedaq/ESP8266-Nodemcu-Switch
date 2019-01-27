@@ -2,8 +2,8 @@
 #include <FirebaseArduino.h> 
 
 // Set these to run example.
-#define FIREBASE_HOST "esp8266-oneago-iot.firebaseio.com"
-#define FIREBASE_AUTH "eAmWLrHkXMbKyQXKzAJ92N6UhU9RWlmpryqzaUVn"
+#define FIREBASE_HOST "oneago-home-ca7b8.firebaseio.com"
+#define FIREBASE_AUTH "hL8vAXXigIDWpMcck56MgsU24Tb5xBTjpkP297UB"
 //Change line with your WiFi router name and password
 #define WIFI_SSID "Bucuru_Rueda"  
 #define WIFI_PASSWORD "cga010119216801"
@@ -56,7 +56,7 @@ void loop() {
       Firebase.setString("LEDstatus", "0");
       digitalWrite(LED,1);
     }
-    delay(500);
+    delay(300);
   }
  
   Serial.print("FirebaseStatus -> ");
