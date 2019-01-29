@@ -77,8 +77,8 @@ app.onSync(body => {
         ],
         name: {
           defaultNames: ['My light'],
-          name: 'Oneago Light',
-          nicknames: ['Oneago Light'],
+          name: 'Lucy',
+          nicknames: ['Lucy'],
         },
         deviceInfo: {
           manufacturer: 'Oneago',
