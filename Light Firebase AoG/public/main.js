@@ -65,7 +65,7 @@ SmartHome.prototype.handleData = () => {
 
   let elOnOff = document.getElementById('demo-washer-onOff');
 
-  firebase.database().ref('/').child('washer').on("value", (snapshot) => {
+  firebase.database().ref('/').child('light').on("value", (snapshot) => {
     if (snapshot.exists()) {
       var washerState = snapshot.val();
       console.log(washerState)

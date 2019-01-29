@@ -7,9 +7,8 @@
 //Change line with your WiFi router name and password
 #define WIFI_SSID "Bucuru_Rueda"  
 #define WIFI_PASSWORD "cga010119216801"
-#define LED 2
+#define LED 16
 #define TOUCH_SWITCH 4
-#define RESET 16
 #define WIFI_CONNECTED 12
 
 String pathDB = "light/OnOff/on";
@@ -18,10 +17,8 @@ String pathDB = "light/OnOff/on";
 void setup() {
   pinMode(LED, OUTPUT);
   pinMode(TOUCH_SWITCH, INPUT);
-  pinMode(RESET, OUTPUT);
   pinMode(WIFI_CONNECTED, OUTPUT);
   digitalWrite(LED,1);
-  digitalWrite(RESET, 1);
   Serial.begin(115200);
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
   Serial.print("connecting");
@@ -37,6 +34,7 @@ void setup() {
   Serial.println(WiFi.macAddress());
   Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);
   Firebase.set(pathDB, false);
+  Firebase.set("boots", Firebase.getInt("boots") + 1);
 }
 
 void loop() {
@@ -69,10 +67,7 @@ void loop() {
   if (Firebase.failed()) {
     Serial.print("setting /number failed:");
     Serial.println(Firebase.error());
-    digitalWrite(WIFI_CONNECTED, LOW);
-    //setup();
-    Firebase.set("fallas", Firebase.getInt("fallas") + 1);
-    //digitalWrite(RESET, 0);
+    digitalWrite(WIFI_CONNECTED, LOW);    
     //return;
     ESP.reset();
   }
